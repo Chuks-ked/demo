@@ -4,6 +4,8 @@ import Card from "./components/Card"
 import ProfileCard from "./components/ProfileCard"
 import Counter from "./components/Counter"
 import ToggleButton from "./components/ToggleButton"
+import TodoList from "./components/TodoList"
+import UserList from "./components/UserList"
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
       </main>
       <Counter />
       <ToggleButton />
+      <TodoList />
+      <UserList />
 
       <div className="flex flex-wrap justify-center">
         <Card title="Card 1" description="This is the first card" isFeatured={true} />
